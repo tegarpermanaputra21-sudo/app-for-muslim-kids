@@ -1,0 +1,98 @@
+/* Importing Google fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* main-menu */
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main-menu h1{
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.main-menu a{  
+    font-size: 18px;
+    text-align: center;
+    width: 14rem;
+    color: #212121;
+    padding: 10px;
+    border: 2px solid #212121;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.main-menu a:hover{
+    color: white;
+    background-color: #212121;
+}
+
+
+/* sub-menu */
+.sub-menu{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    margin: 4rem auto;
+    flex-direction: column;
+}
+.sub-menu h1{
+    font-size: 35px;
+    margin: 0 auto 70px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 24px;
+}
+.card img{
+    width: 100%;
+    border-radius:  12px;
+}
+.card .card-body{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.card .card-body h2{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.card .card-body p{
+    font-size: 12px;
+    margin-bottom: 2rem;
+}
+.card .card-body a{
+    border: 2px solid #212121;
+    font-size: 12px;
+    color: white;
+    background-color: #212121;
+    text-decoration: none;
+    padding: 10px;
+    border-radius:  12px;
+    transition: 0.2s;
+}
+.card .card-body a:hover{
+    color: #212121;
+    background-color: transparent;
+}
