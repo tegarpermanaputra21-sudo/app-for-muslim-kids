@@ -96,3 +96,102 @@ body{
     color: #212121;
     background-color: transparent;
 }
+
+
+/* niat page */
+.niat{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0rem auto 10rem;
+}
+.niat h1{
+    text-align: center;
+    margin: 4rem auto 2rem;
+}
+.niat .content{
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.niat .content img{
+    width: 200px;
+}
+.niat .content p{
+    font-size: 17px;
+    text-align: justify;
+}
+.niat .content .bacaan{
+    margin: 3rem auto;
+}
+.niat .content .bacaan .arab{
+    font-size: 30px;
+}
+.niat .content .bacaan .latin{
+    font-size: 15px;
+    color: #4f4f4f;
+    margin-bottom: 1rem;
+}
+.niat .content .bacaan .arti{
+    font-size: 16px;
+}
+
+
+/* bottom-nav */
+.bottom-nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    gap: 18rem;
+    text-align: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #212121;
+    margin: 0 auto;
+    padding: 15px;
+    bottom: 0;
+    border-top: 1px solid #212121;
+    z-index: 1000;
+}
+.bottom-nav .desc{
+    display: flex;
+    text-align: center;
+}
+.bottom-nav .center{
+    justify-content: center;
+}
+
+.col.center {
+    justify-content: center;
+}
+.desc {
+    justify-content: space-between;
+}
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.nav-btn:hover {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #3f3f46;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.material-symbols-outlined {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
