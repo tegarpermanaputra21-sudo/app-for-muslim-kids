@@ -15,9 +15,11 @@ body{
 /* main-menu */
 .main-menu{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
     min-height: 100vh;
 }
 .main-menu h1{
@@ -101,44 +103,59 @@ body{
 
 
 /* niat page */
-.niat{
-    width: 80%;
+.niat {
+    width: 90%;
+    margin: 4rem auto;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 0rem auto 4rem;
-    min-height: 100vh;
 }
-.niat h1{
-    text-align: center;
-    margin: 0 auto 1rem;
+
+.niat h1 {
+    margin-bottom: 1.5rem;
 }
-.niat .content{
-    text-align: center;
+
+.niat .content {
     width: 85%;
     margin: 0 auto;
+    text-align: center;
 }
-.niat .content img{
+
+.niat .content img {
     width: 200px;
+    max-width: 100%;
+    margin-bottom: 1rem;
 }
-.niat .content p{
-    font-size: 16px;
+
+.niat .content p {
+    font-size: 17px;
     text-align: justify;
+    line-height: 1.6;
 }
-.niat .content .bacaan{
+
+.niat .content .bacaan {
     margin: 3rem auto;
 }
-.niat .content .bacaan .arab{
+
+.niat .content .bacaan .arab {
+    text-align: right;
     font-size: 30px;
+    margin-bottom: 0.5rem;
 }
-.niat .content .bacaan .latin{
-    font-size: 14px;
+
+.niat .content .bacaan .latin {
+    text-align: right;
+    font-size: 15px;
     color: #4f4f4f;
     margin-bottom: 1rem;
 }
-.niat .content .bacaan .arti{
-    font-size: 15px;
+
+.niat .content .bacaan .arti {
+    font-size: 16px;
+    color: #222;
+    line-height: 1.6;
 }
 
 
