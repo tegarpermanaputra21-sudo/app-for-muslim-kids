@@ -202,7 +202,7 @@ body{
 @media (max-width: 600px){
     .bottom-nav .desk{
         display: none;
-    }
+    /* }
     .bottom-nav{
     position: fixed;
     bottom: 0;
@@ -215,5 +215,5 @@ body{
     justify-content: center;
     border-top: 1px solid #3f3f46;
     z-index: 1000;
-    }
+    } */
 }
