@@ -206,15 +206,6 @@ body{
     .bottom-nav .desk{
         display: none;
     }
-    .niat{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin: 4rem auto;
-        flex-direction: column;
-        min-height: 100vh;
-    }
 }
 
 @media (max-width: 700px){
