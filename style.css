@@ -200,6 +200,12 @@ body{
 }
 
 @media (max-width: 600px){
+    /* niat */
+    .niat .content p{
+        text-align: left;
+    }
+
+    /* nav-menu */
     .bottom-nav .desk{
         display: none;
     }
