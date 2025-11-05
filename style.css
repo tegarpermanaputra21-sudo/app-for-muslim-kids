@@ -185,6 +185,18 @@ body{
 
 
 /* Rsponsive */
+@media (max-width: 850px){
+    .bottom-nav .desk{
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    .bottom-nav .desk{
+        display: none;
+    }
+}
+
 @media (max-width: 600px){
     .bottom-nav .desk{
         display: none;
