@@ -182,3 +182,11 @@ body{
     font-size: 20px;
     vertical-align: middle;
 }
+
+
+/* Rsponsive */
+@media (max-width: 600px){
+    .bottom-nav .desk{
+        display: none;
+    }
+}
