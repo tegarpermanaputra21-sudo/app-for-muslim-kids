@@ -168,11 +168,13 @@ body{
     background-color: #212121;
     color: white;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 12px 16px;
+    text-align: center;
+    justify-content: center;
     border-top: 1px solid #3f3f46;
     z-index: 1000;
+}.bottom-nav .col{
+    padding: 16px;
+    margin: 0 auto;
 }
 .bottom-nav a{
     color: white;
