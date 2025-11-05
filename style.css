@@ -45,9 +45,11 @@ body{
 .sub-menu{
     width: 90%;
     display: flex;
+    justify-content: center;
     text-align: center;
     margin: 4rem auto;
     flex-direction: column;
+    min-height: 100vh;
 }
 .sub-menu h1{
     font-size: 35px;
@@ -105,11 +107,12 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 0rem auto 10rem;
+    margin: 0rem auto 4rem;
+    min-height: 100vh;
 }
 .niat h1{
     text-align: center;
-    margin: 4rem auto 2rem;
+    margin: 0 auto 1rem;
 }
 .niat .content{
     text-align: center;
@@ -120,7 +123,7 @@ body{
     width: 200px;
 }
 .niat .content p{
-    font-size: 17px;
+    font-size: 16px;
     text-align: justify;
 }
 .niat .content .bacaan{
@@ -130,68 +133,35 @@ body{
     font-size: 30px;
 }
 .niat .content .bacaan .latin{
-    font-size: 15px;
+    font-size: 14px;
     color: #4f4f4f;
     margin-bottom: 1rem;
 }
 .niat .content .bacaan .arti{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 
-/* bottom-nav */
+/* nav-menu */
 .bottom-nav{
-    width: 100%;
     position: fixed;
-    display: flex;
-    gap: 18rem;
-    text-align: center;
-    justify-content: space-evenly;
-    color: white;
-    background-color: #212121;
-    margin: 0 auto;
-    padding: 15px;
     bottom: 0;
-    border-top: 1px solid #212121;
+    left: 0;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 16px;
+    border-top: 1px solid #3f3f46;
     z-index: 1000;
 }
-.bottom-nav .desc{
-    display: flex;
-    text-align: center;
-}
-.bottom-nav .center{
-    justify-content: center;
-}
-
-.col.center {
-    justify-content: center;
-}
-.desc {
-    justify-content: space-between;
-}
-.nav-btn {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding: 6px;
-    text-decoration: none;
+.bottom-nav a{
     color: white;
-    font-weight: 500;
+    text-decoration: none;
 }
-.nav-btn:hover {
-    padding: 6px;
-    border-radius: 4px;
-    background-color: #3f3f46;
-}
-.reverse{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.material-symbols-outlined {
-    font-size: 10px;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 50%;
+.bottom-nav .material-symbols-outlined{
+    font-size: 20px;
     vertical-align: middle;
 }
