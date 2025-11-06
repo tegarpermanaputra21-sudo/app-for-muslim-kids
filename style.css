@@ -105,7 +105,7 @@ body{
 /* niat page */
 .niat {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 4rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@ body{
 .niat .content img {
     width: 200px;
     max-width: 100%;
-    margin-bottom: 1rem;
+    margin: 10px;
 }
 
 .niat .content p {
@@ -170,8 +170,13 @@ body{
     align-items: center;
     text-align: center;
 }
+.takbir .content{
+    width: 70%;
+}
 .takbir .content img{
     width: 200px;
+    max-width: 100%;
+    margin: 10px;
 }
 
 /* nav-up */
@@ -253,8 +258,13 @@ body{
 
 @media (max-width: 600px){
     /* niat */
-    .niat .content p{
-        text-align: left;
+    .niat{
+        margin: 3rem auto 0;
+    }
+    
+    /* takbir */
+    .takbir{
+        margin: 3rem auto 0;
     }
 
     /* nav-menu */
