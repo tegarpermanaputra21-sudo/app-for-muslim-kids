@@ -275,7 +275,18 @@ body{
 
 /* Untuk layar sangat kecil (HP < 480px) */
 @media (max-width: 480px) {
-    .takbir .content img {
+
+}
+
+
+@media (max-width: 600px){
+    /* niat */
+    .niat .content p{
+        text-align: left;
+    }
+
+    /* takbiratul ihram */
+        .takbir .content img {
         width: 120px;
     }
 
@@ -290,14 +301,6 @@ body{
 
     .bottom-nav .material-symbols-outlined {
         font-size: 18px;
-    }
-}
-
-
-@media (max-width: 600px){
-    /* niat */
-    .niat .content p{
-        text-align: left;
     }
 
     /* nav-menu */
