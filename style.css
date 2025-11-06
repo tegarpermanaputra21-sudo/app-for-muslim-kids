@@ -136,23 +136,24 @@ body{
 }
 
 .niat .content .bacaan {
-    margin: 3rem auto;
+    margin: 2rem auto;
 }
 
 .niat .content .bacaan .arab {
-    text-align: right;
+    text-align: justify;
     font-size: 30px;
     margin-bottom: 0.5rem;
 }
 
 .niat .content .bacaan .latin {
-    text-align: right;
+    text-align: justify;
     font-size: 15px;
     color: #4f4f4f;
     margin-bottom: 1rem;
 }
 
 .niat .content .bacaan .arti {
+    text-align: justify;
     font-size: 16px;
     color: #222;
     line-height: 1.6;
