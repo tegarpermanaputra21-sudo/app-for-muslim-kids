@@ -118,7 +118,7 @@ body{
 }
 
 .niat .content {
-    width: 85%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -140,13 +140,13 @@ body{
 }
 
 .niat .content .bacaan .arab {
-    text-align: justify;
+    text-align: right;
     font-size: 30px;
     margin-bottom: 0.5rem;
 }
 
 .niat .content .bacaan .latin {
-    text-align: justify;
+    text-align: right;
     font-size: 15px;
     color: #4f4f4f;
     margin-bottom: 1rem;
@@ -234,6 +234,12 @@ body{
 @media (max-width: 850px){
     .bottom-nav .desk{
         display: none;
+    }
+    .niat{
+        text-align: center;
+    }
+    .niat .content{
+        width: 80%;
     }
 }
 
