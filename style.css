@@ -44,7 +44,7 @@ body{
 
 
 /* sub-menu */
-.sub-menu{
+.sub-menu {
     width: 90%;
     display: flex;
     justify-content: center;
@@ -53,50 +53,69 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-.sub-menu h1{
+.sub-menu h1 {
     font-size: 35px;
     margin: 0 auto 70px;
 }
-.cards{
+.cards {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     flex-wrap: wrap;
 }
-.card{
+.card {
     background-color: rgb(230, 230, 230);
     font-size: 14px;
     padding: 20px;
     width: 200px;
     border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
 }
-.card img{
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
     width: 100%;
-    border-radius:  12px;
+    border-radius: 12px;
 }
-.card .card-body{
-    margin-bottom: 10px;
+.card .card-body {
+    margin-top: 10px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
 }
-.card .card-body h2{
+.card .card-body h2 {
     font-size: 18px;
-    margin: 5px 0;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
-.card .card-body p{
+.card .card-body p {
     font-size: 12px;
-    margin-bottom: 2rem;
+    line-height: 1.4;
+    margin-bottom: 6px;
+    color: #333;
+    flex-grow: 1;
 }
-.card .card-body a{
+.card .card-body a {
+    align-self: flex-start;
+    display: inline-block;
     border: 2px solid #212121;
     font-size: 12px;
-    color: white;
+    font-weight: 600;
+    color: #fff;
     background-color: #212121;
     text-decoration: none;
-    padding: 10px;
-    border-radius:  12px;
+    padding: 8px 14px;
+    border-radius: 10px;
     transition: 0.2s;
 }
-.card .card-body a:hover{
+.card .card-body a:hover {
     color: #212121;
     background-color: transparent;
 }
@@ -112,11 +131,6 @@ body{
     align-items: center;
     text-align: center;
 }
-
-.niat h1 {
-    margin-bottom: 1.5rem;
-}
-
 .niat .content {
     width: 60%;
     margin: 0 auto;
@@ -126,7 +140,6 @@ body{
 .niat .content img {
     width: 200px;
     max-width: 100%;
-    margin: 10px;
 }
 
 .niat .content p {
@@ -176,7 +189,6 @@ body{
 .takbir .content img{
     width: 200px;
     max-width: 100%;
-    margin: 10px;
 }
 
 /* nav-up */
@@ -247,6 +259,14 @@ body{
         width: 80%;
         margin: 2rem auto;
         text-align: center;
+    }
+    /* nav-up */
+    .nav-up {
+    width: 6.5rem;
+    margin: 10px;
+    }
+    .nav-up a{
+        margin: 0;
     }
 }
 
