@@ -233,18 +233,15 @@ body{
     .bottom-nav .desk{
         display: none;
     }
-    .niat{
+    .container{
         text-align: center;
     }
-    .niat .content{
+    .container .content{
         width: 80%;
         margin: 2rem auto;
         text-align: center;
     }
     
-    /* takbir */
-
-
     
     /* nav-up */
     .nav-up {
@@ -263,15 +260,10 @@ body{
 }
 
 @media (max-width: 600px){
-    /* niat */
-    .niat{
+    .container{
         margin: 3rem auto;
     }
-    
-    /* takbir */
-    .takbir{
-        margin: 3rem auto;
-    }
+
 
     /* nav-menu */
     .bottom-nav .desk{
