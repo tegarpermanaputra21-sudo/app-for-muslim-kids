@@ -121,8 +121,8 @@ body{
 }
 
 
-/* niat page */
-.niat {
+/*  all container for content */
+.container {
     width: 90%;
     margin: 0 auto 4rem;
     min-height: 100vh;
@@ -131,17 +131,17 @@ body{
     align-items: center;
     text-align: center;
 }
-.niat .content {
+.container .content {
     width: 60%;
     margin: 0 auto;
     text-align: center;
 }
-
-.niat .content img {
+.container .content img {
     width: 200px;
     max-width: 100%;
 }
 
+/* niat */
 .niat .content p {
     font-size: 17px;
     text-align: justify;
@@ -164,7 +164,6 @@ body{
     color: #4f4f4f;
     margin-bottom: 1rem;
 }
-
 .niat .content .bacaan .arti {
     text-align: justify;
     font-size: 16px;
@@ -172,24 +171,6 @@ body{
     line-height: 1.6;
 }
 
-
-/* takbiratul page */
-.takbir{
-    width: 80%;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.takbir .content{
-    width: 70%;
-}
-.takbir .content img{
-    width: 200px;
-    max-width: 100%;
-}
 
 /* nav-up */
 .nav-up {
@@ -260,6 +241,11 @@ body{
         margin: 2rem auto;
         text-align: center;
     }
+    
+    /* takbir */
+
+
+    
     /* nav-up */
     .nav-up {
     width: 6.5rem;
@@ -279,12 +265,12 @@ body{
 @media (max-width: 600px){
     /* niat */
     .niat{
-        margin: 3rem auto 0;
+        margin: 3rem auto;
     }
     
     /* takbir */
     .takbir{
-        margin: 3rem auto 0;
+        margin: 3rem auto;
     }
 
     /* nav-menu */
