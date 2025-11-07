@@ -142,29 +142,29 @@ body{
 }
 
 /* niat */
-.niat .content p {
+.container .content p {
     font-size: 17px;
     text-align: justify;
     line-height: 1.6;
 }
 
-.niat .content .bacaan {
+.container .content .bacaan {
     margin: 2rem auto;
 }
 
-.niat .content .bacaan .arab {
+.container .content .bacaan .arab {
     text-align: right;
     font-size: 30px;
     margin-bottom: 0.5rem;
 }
 
-.niat .content .bacaan .latin {
+.container .content .bacaan .latin {
     text-align: right;
     font-size: 15px;
     color: #4f4f4f;
     margin-bottom: 1rem;
 }
-.niat .content .bacaan .arti {
+.container .content .bacaan .arti {
     text-align: justify;
     font-size: 16px;
     color: #222;
