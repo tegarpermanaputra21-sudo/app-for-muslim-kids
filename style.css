@@ -140,24 +140,19 @@ body{
     width: 200px;
     max-width: 100%;
 }
-
-/* niat */
 .container .content p {
     font-size: 17px;
     text-align: justify;
     line-height: 1.6;
 }
-
 .container .content .bacaan {
     margin: 2rem auto;
 }
-
 .container .content .bacaan .arab {
     text-align: right;
     font-size: 30px;
     margin-bottom: 0.5rem;
 }
-
 .container .content .bacaan .latin {
     text-align: right;
     font-size: 15px;
@@ -195,7 +190,6 @@ body{
     border: 2px solid #212121;
     background-color: transparent;
 }
-
 .material-symbols-outlined {
     font-size: 22px;
 }
@@ -230,26 +224,23 @@ body{
 
 /* Rsponsive */
 @media (max-width: 850px){
-    .bottom-nav .desk{
-        display: none;
-    }
+    /* main-content */
     .container{
         text-align: center;
     }
     .container .content{
-        width: 80%;
-        margin: 2rem auto;
+        width: 90%;
+        margin: 1rem auto;
         text-align: center;
     }
     
-    
-    /* nav-up */
-    .nav-up {
-    width: 6.5rem;
-    margin: 10px;
-    }
-    .nav-up a{
+    /* nav-up btn */
+    .nav-up{
         margin: 0;
+    }
+    /* nav-down */
+    .bottom-nav .desk{
+        display: none;
     }
 }
 
@@ -261,12 +252,6 @@ body{
 
 @media (max-width: 600px){
     .container{
-        margin: 3rem auto;
-    }
-
-
-    /* nav-menu */
-    .bottom-nav .desk{
-        display: none;
+        margin: 2rem auto;
     }
 }
