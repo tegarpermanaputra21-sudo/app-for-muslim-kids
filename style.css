@@ -32,7 +32,7 @@ body{
     width: 14rem;
     color: #212121;
     padding: 10px;
-    border: 2px solid #212121;
+    border: 3px solid #212121;
     border-radius: 12px;
     text-decoration: none;
     transition: 0.2s;
@@ -105,7 +105,7 @@ body{
 .card .card-body a {
     align-self: flex-start;
     display: inline-block;
-    border: 2px solid #212121;
+    border: 2.5px solid #212121;
     font-size: 12px;
     font-weight: 600;
     color: #fff;
@@ -208,13 +208,24 @@ body{
     justify-content: center;
     border-top: 1px solid #3f3f46;
     z-index: 1000;
-}.bottom-nav .col{
+}
+.bottom-nav .col{
     padding: 16px;
     margin: 0 auto;
 }
+.bottom-nav .desk{
+    transition: 0.2s;
+}
 .bottom-nav a{
     color: white;
+    padding: 10px;
     text-decoration: none;
+    transition: 0.2s;
+}
+.bottom-nav a:hover{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #4f4f4f;
 }
 .bottom-nav .material-symbols-outlined{
     font-size: 20px;
