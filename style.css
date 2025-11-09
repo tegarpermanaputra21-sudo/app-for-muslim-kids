@@ -54,7 +54,7 @@ body{
     min-height: 100vh;
 }
 .sub-menu h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin: 0 auto 70px;
 }
 .cards {
@@ -81,6 +81,12 @@ body{
 .card img {
     width: 100%;
     border-radius: 12px;
+    transform: scale(1.5);
+}
+.card .rukuk{
+        width: 100%;
+    border-radius: 12px;
+    transform: scale(1.2);
 }
 .card .card-body {
     margin-top: 10px;
@@ -133,37 +139,49 @@ body{
 }
 .container .content {
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     text-align: center;
+}
+.container .content .img{
+    width: 200px;
+    max-width: 100%;
+    transform: scale(1.5);
 }
 .container .content img {
     width: 200px;
     max-width: 100%;
+    transform: scale(2);
 }
 .container .content p {
-    font-size: 17px;
+    font-size: 16px;
     text-align: justify;
     line-height: 1.6;
 }
 .container .content .bacaan {
-    margin: 2rem auto;
+    margin: 0 auto 1rem;
+}
+.container .content .bacaan h2{
+    text-align: left;
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
 }
 .container .content .bacaan .arab {
     text-align: right;
     font-size: 30px;
-    margin-bottom: 0.5rem;
 }
 .container .content .bacaan .latin {
-    text-align: right;
+    text-align: left;
     font-size: 15px;
     color: #4f4f4f;
-    margin-bottom: 1rem;
 }
 .container .content .bacaan .arti {
-    text-align: justify;
+    text-align: left;
     font-size: 16px;
     color: #222;
     line-height: 1.6;
+    margin-bottom: 2.5rem;
 }
 
 
