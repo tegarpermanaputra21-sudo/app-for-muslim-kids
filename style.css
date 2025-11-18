@@ -259,6 +259,10 @@ body{
 
 /* Rsponsive */
 @media (max-width: 850px){
+    /* main-menu */
+    main-menu{
+        margin: 0 1.2rem;
+    }
     /* main-content */
     .container{
         text-align: center;
