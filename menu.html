@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link rel="stylesheet" href="aos/aos.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="sub-menu">
-        <h1>Tata Cara Shalat</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">Tata Cara Shalat</h1>
 
         <div class="cards">
             <div class="card">
@@ -93,5 +94,13 @@
             </div>
         </div>
     </section>
+
+    <!---- JavaScript for Animation on scroll (AOS) ---->
+    <script src="aos/aos.js"></script>
+        <script>
+        AOS.init ({
+            once: false //true/false
+        })
+    </script>
 </body>
 </html>

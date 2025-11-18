@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Takbiratul Ihram</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="aos/aos.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +18,7 @@
     </div>
 
 <section class="container takbir">
-    <h1>Takbiratul Ihram</h1>
+    <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">Takbiratul Ihram</h1>
     <div class="content">
         <img src="images/takbir.png" alt="Anak sedang takbiratul ihram">
         <div class="bacaan">
@@ -49,5 +50,13 @@
             </a>
         </div>
     </nav>
+
+    <!---- JavaScript for Animation on scroll (AOS) ---->
+    <script src="aos/aos.js"></script>
+        <script>
+        AOS.init ({
+            once: false //true/false
+        })
+    </script>
 </body>
 </html>
