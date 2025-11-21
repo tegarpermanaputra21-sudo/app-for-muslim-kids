@@ -1,0 +1,296 @@
+/* Importing Google fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* main-menu */
+.main-menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-menu h1{
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.main-menu a{  
+    font-size: 18px;
+    text-align: center;
+    width: 14rem;
+    color: #212121;
+    padding: 10px;
+    border: 3px solid #212121;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.main-menu a:hover{
+    color: white;
+    background-color: #212121;
+}
+
+
+/* sub-menu */
+.sub-menu {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem auto;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.sub-menu h1 {
+    font-size: 40px;
+    margin: 0 auto 70px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    transform: scale(1.5);
+}
+.card img:hover{
+    transform: scale(1.7);
+}
+.card .rukuk{
+    width: 100%;
+    border-radius: 12px;
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}
+.card .rukuk:hover{
+    transform: scale(1.4);
+}
+.card .card-body {
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+.card .card-body h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.card .card-body p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+    color: #333;
+    flex-grow: 1;
+}
+.card .card-body a {
+    align-self: flex-start;
+    display: inline-block;
+    border: 2.5px solid #212121;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #212121;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.card .card-body a:hover {
+    color: #212121;
+    background-color: transparent;
+}
+
+
+/*  all container for content */
+.container {
+    width: 90%;
+    margin: 0 auto 4rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container .content {
+    width: 60%;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+.container .content .img{
+    width: 200px;
+    max-width: 100%;
+    transform: scale(1.5);
+}
+.container .content img {
+    width: 200px;
+    max-width: 100%;
+    transform: scale(2);
+}
+.container .content p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.container .content .bacaan {
+    margin: 0 auto 1rem;
+}
+.container .content .bacaan h2{
+    text-align: left;
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.container .content .bacaan .arab {
+    text-align: right;
+    font-size: 28px;
+}
+.container .content .bacaan .latin {
+    text-align: left;
+    color: #767575;
+    margin-bottom: 5px;
+}
+.container .content .bacaan .arti {
+    text-align: left;
+    color: #222;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+
+/* nav-up */
+.nav-up {
+    width: 6.5rem;
+    padding: 20px;
+    margin: 0 20px;
+}
+.nav-up a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid #212121;
+    background-color: #212121;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+.nav-up a:hover {
+    color: #212121;
+    border: 2px solid #212121;
+    background-color: transparent;
+}
+.material-symbols-outlined {
+    font-size: 22px;
+}
+
+
+/* nav-down */
+.bottom-nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid #3f3f46;
+    z-index: 1000;
+}
+.bottom-nav .col{
+    padding: 16px;
+    margin: 0 auto;
+}
+.bottom-nav .desk{
+    transition: 0.2s;
+}
+.bottom-nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.bottom-nav a:hover{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #4f4f4f;
+}
+.bottom-nav .material-symbols-outlined{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+/* Rsponsive */
+@media (max-width: 850px){
+    /* main-menu */
+    main-menu{
+        margin: 0 1.2rem;
+    }
+    /* main-content */
+    .container{
+        text-align: center;
+    }
+    .container .content{
+        width: 90%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    /* nav-up btn */
+    .nav-up{
+        margin: 0;
+    }
+    /* nav-down */
+    .bottom-nav .desk{
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    .bottom-nav .desk{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        margin: 2rem auto;
+    }
+}
